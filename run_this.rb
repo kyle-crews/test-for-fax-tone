@@ -8,12 +8,11 @@ account_sid = ENV['TWILIO_ACCOUNT_SID']
 auth_token = ENV['TWILIO_AUTH_TOKEN']
 @client = Twilio::REST::Client.new(account_sid, auth_token)
 
-call = @client.calls
+fax = @client.fax.faxes
   .create(
-     machine_detection: 'Enable',
-     url: 'https://handler.twilio.com/twiml/EH8ccdbd7f0b8fe34357da8ce87ebe5a16',
-     to: '+1562300000',
-     from: '+18180000000'
+     from: '+15017122661',
+     to: '+15558675310',
+     media_url: 'https://www.twilio.com/docs/documents/25/justthefaxmaam.pdf'
    )
 
-puts call.sid
+puts fax.sid
