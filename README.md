@@ -12,4 +12,12 @@ You'll need the following prior to running these scripts:
 ## how to run the scripts
 
 1. Download this repo to your local machine (https://github.com/kyle-crews/test-for-fax-tone/archive/refs/heads/main.zip)
-2. Within a terminal or command line window, navigate to the project folder you downloaded `<$ testing cd /Downloads/test-for-fax-tone >`
+2. Within a terminal/cli window, navigate to the project folder you downloaded. 
+  
+  Example: `<$ cd ./Downloads/test-for-fax-tone >`
+
+3. Once inside the project directory, open the `<run_this.rb>` and `<run_report.rb>` files in an IDE.
+  
+  Example: `< code run_this.rb >` and `< code run_report.rb >`
+  
+4. 
