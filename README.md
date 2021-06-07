@@ -11,4 +11,5 @@ You'll need the following prior to running these scripts:
 
 ## how to run the scripts
 
-
+1. Download this repo to your local machine (https://github.com/kyle-crews/test-for-fax-tone/archive/refs/heads/main.zip)
+2. Within a terminal or command line window, navigate to the project folder you downloaded `<$ testing cd /Downloads/test-for-fax-tone >`
