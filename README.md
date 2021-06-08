@@ -1,5 +1,5 @@
 # test-for-fax-tone
-Twilio script to test for a fax tone
+Twilio script to test for a fax tone, given an array of phone numbers.
 
 ## before running the program
 
